@@ -18,7 +18,7 @@ async function main() {
             type: 'list',
             name: 'mode',
             message: '請選擇執行模式:',
-            choices: ['單鏈查詢', '多鏈查詢']
+            choices: ['單鏈查詢', '多多鏈查詢']
         }
     ]);
 
