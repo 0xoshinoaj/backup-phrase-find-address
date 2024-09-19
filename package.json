@@ -1,0 +1,23 @@
+{
+  "name": "multi-chain-wallet-checker",
+  "version": "1.7.0",
+  "description": "多鏈錢包餘額檢查工具",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "single": "node single.js",
+    "multi": "node multi.js"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.3.0",
+    "inquirer": "^9.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
